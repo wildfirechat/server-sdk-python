@@ -1,6 +1,6 @@
 # 野火IM Server SDK for Python
 
-这是野火IM服务器的Python SDK，实现了与Java SDK完全相同的API接口。
+野火IM Server Python SDK 是野火IM服务器的官方 Python 语言 SDK，提供了完整的 Admin API、Robot API 和 Channel API 接口封装。
 
 ## 功能特性
 
@@ -15,11 +15,12 @@
 - 敏感词管理
 - 多种消息类型支持（文本、图片、语音、视频、文件、位置、链接、名片等）
 
-## 接口文档
+## 参考文档
 
 - [Admin API 文档](https://docs.wildfirechat.cn/server/admin_api/) - 服务端管理接口，包括用户、群组、消息、频道等管理功能
 - [Robot API 文档](https://docs.wildfirechat.cn/server/robot_api/) - 机器人服务接口，用于开发机器人应用
 - [Channel API 文档](https://docs.wildfirechat.cn/server/channel_api/) - 频道服务接口，用于开发公众号/频道应用
+- [IM 开发文档](https://docs.wildfirechat.cn/) - 野火IM完整开发文档
 
 ## 其他语言 SDK
 
@@ -161,24 +162,6 @@ python_sdk/
 └── README.md             # 说明文档
 ```
 
-## 与Java SDK的对应关系
-
-| Java SDK | Python SDK |
-|----------|------------|
-| cn.wildfirechat.sdk.AdminConfig | wildfirechat.AdminConfig |
-| cn.wildfirechat.sdk.UserAdmin | wildfirechat.UserAdmin |
-| cn.wildfirechat.sdk.GroupAdmin | wildfirechat.GroupAdmin |
-| cn.wildfirechat.sdk.MessageAdmin | wildfirechat.MessageAdmin |
-| cn.wildfirechat.sdk.RelationAdmin | wildfirechat.RelationAdmin |
-| cn.wildfirechat.sdk.ChatroomAdmin | wildfirechat.ChatroomAdmin |
-| cn.wildfirechat.sdk.ChannelAdmin | wildfirechat.ChannelAdmin |
-| cn.wildfirechat.sdk.GeneralAdmin | wildfirechat.GeneralAdmin |
-| cn.wildfirechat.sdk.SensitiveAdmin | wildfirechat.SensitiveAdmin |
-| cn.wildfirechat.sdk.ConferenceAdmin | wildfirechat.ConferenceAdmin |
-| cn.wildfirechat.sdk.RobotService | wildfirechat.RobotService |
-| cn.wildfirechat.common.ErrorCode | wildfirechat.error_code.ErrorCode |
-| cn.wildfirechat.proto.ProtoConstants | wildfirechat.proto_constants |
-
 ## 许可证
 
-本项目采用与野火IM相同的许可证。
+MIT
