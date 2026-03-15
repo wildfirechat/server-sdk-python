@@ -31,6 +31,7 @@
 | Java SDK | [GitHub](https://github.com/wildfirechat/server/tree/master/sdk) | [Gitee](https://gitee.com/wfchat/im-server/tree/wildfirechat/sdk) |
 | Go SDK | [GitHub](https://github.com/wildfirechat/server-sdk-go)          | [Gitee](https://gitee.com/wfchat/server-sdk-go) |
 | Node.js SDK | [GitHub](https://github.com/wildfirechat/server-sdk.js)          | [Gitee](https://gitee.com/wfchat/server-sdk.js) |
+| Python SDK | [GitHub](https://github.com/wildfirechat/server-sdk-python)          | [Gitee](https://gitee.com/wfchat/server-sdk-python) |
 
 ## 安装
 
